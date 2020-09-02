@@ -21,8 +21,8 @@ $competene_color = '#1B402C';
       <canvas class="particles" data-color="#3FBF55" id="scene-container"></canvas>
       <div id="star-container"></div>
       <!-- Contenu Central -->
-      <div id="content-container">
-        <h1 class="name-title">BARLIER VICTOR</h1>
+      <div id="content-container-portfolio">
+        <?php require 'content/portfolio.php' ?>
       </div>
       <!-- Barre Social -->
       <div id="social-bar">
@@ -178,6 +178,7 @@ $competene_color = '#1B402C';
       </div>
     </header>
     <script type="text/javascript" src="js/script-portfolio.js"></script>
+    <script type="text/javascript" src="js/script-project.js"></script>
     <script type="text/javascript" src="js/burger.js"></script>
   </body>
 </html>
