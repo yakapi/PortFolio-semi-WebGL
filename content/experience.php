@@ -19,7 +19,7 @@
 <div class="Illicoweb-zone">
   <div id="box-illico" class="inside-box-exp">
     <div class="encard-logo-exp">
-      <img src="img/logo-acs-black.png" alt="">
+      <img src="img/illicoweb-logo.svg" alt="illicoweb-logo">
     </div>
     <div class="content-illicoweb">
       <h3 class="title-exp">Période d'activité:</h3>

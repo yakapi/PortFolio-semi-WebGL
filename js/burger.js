@@ -136,4 +136,8 @@ contact_button.addEventListener('click', ()=>{
   }else {
     console.log('existe pas');
   }
+  arrow_right2.addEventListener('click', ()=>{
+    contact_menu.classList.toggle('menu-contact-anim')
+    arrow_right2.classList.toggle('arrow-right-fx')
+  })
 })

@@ -14,7 +14,14 @@ $competene_color = 'royalblue';
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body id="bdy">
+    <script type="text/javascript" src="js/redirect.js"></script>
+    <!-- Loader -->
+    <div id="loader" class="loader">
+      <div class="encard-loader">
+        <img src="img/loader1.svg" alt="loader">
+      </div>
+    </div>
     <header class="header">
       <!-- WebGL -->
       <div id="scene-container"></div>
@@ -26,10 +33,10 @@ $competene_color = 'royalblue';
       <!-- Barre Social -->
       <div id="social-bar">
         <ul class="m-social-bar">
-          <li><a class="encard-social-bar" target="_blank" href="#"><img src="img/linkedin-white.svg" alt="LinkedIn-White"></a></li>
-          <li><a class="encard-social-bar" target="_blank" href="#"><img src="img/facebook-white.svg" alt="Facebook-White"></a></li>
-          <li><a class="encard-social-bar" target="_blank" href="#"><img src="img/instagram-white.svg" alt="Instagram-White"></a></li>
-          <li><a class="encard-social-bar" target="_blank" href="#"><img src="img/soundcloud-white.svg" alt="Soundcloud-White"></a></li>
+          <li><a class="encard-social-bar" target="_blank" href="https://www.linkedin.com/in/victor-barlier"><img src="img/linkedin-white.svg" alt="LinkedIn-White"></a></li>
+          <li><a class="encard-social-bar" target="_blank" href="https://www.facebook.com/victor.barlier"><img src="img/facebook-white.svg" alt="Facebook-White"></a></li>
+          <li><a class="encard-social-bar" target="_blank" href="https://www.instagram.com/d_cay.420"><img src="img/instagram-white.svg" alt="Instagram-White"></a></li>
+          <li><a class="encard-social-bar" target="_blank" href="https://github.com/yakapi"><img src="img/github-white.svg" alt="Github-White"></a></li>
         </ul>
       </div>
       <!-- Barre de Navigation -->
@@ -53,10 +60,10 @@ $competene_color = 'royalblue';
         </ul>
         <!-- Social Media -->
         <ul class="menu-social">
-          <li><a class="encard-social" href="#"><img src="img/linked.svg" alt="LinkedIn"></a></li>
-          <li><a class="encard-social" href="#"><img src="img/facebook.svg" alt="Facebook"></a></li>
-          <li><a class="encard-social" href="#"><img src="img/instagram.svg" alt="Instagram"></a></li>
-          <li><a class="encard-social" href="#"><img src="img/soundcloud.svg" alt="Soundcloud"></a></li>
+          <li><a class="encard-social" href="https://www.linkedin.com/in/victor-barlier"><img src="img/linked.svg" alt="LinkedIn"></a></li>
+          <li><a class="encard-social" href="https://www.facebook.com/victor.barlier"><img src="img/facebook.svg" alt="Facebook"></a></li>
+          <li><a class="encard-social" href="https://www.instagram.com/d_cay.420"><img src="img/instagram.svg" alt="Instagram"></a></li>
+          <li><a class="encard-social" href="https://github.com/yakapi"><img src="img/github.svg" alt="Github"></a></li>
         </ul>
       </div>
       <!-- Menu Compétence -->
@@ -133,33 +140,33 @@ $competene_color = 'royalblue';
         </div>
         <div class="contact-box">
           <h3>Contactez Moi</h3>
-          <form class="contact-form" action="index.html" method="post">
+          <form id="contact-form" class="contact-form" action="index.php" method="post" >
             <div class="contact-input">
               <label for="contact-prenom">votre prénom:</label>
               <input id="contact-prenom" class="contactput" type="text" name="prenom" placeholder="ex: Jean">
               <div class="error-zone">
-                <p class="contact-erreur">Erreur</p>
+
               </div>
             </div>
             <div class="contact-input">
               <label for="contact-nom">votre nom:</label>
               <input id="contact-nom" class="contactput" type="text" name="nom" placeholder="ex: valjean">
               <div class="error-zone">
-                <p class="contact-erreur">Erreur</p>
+
               </div>
             </div>
             <div class="contact-input">
               <label for="contact-mail">votre e-mail:</label>
               <input id="contact-mail" class="contactput" type="text" name="email" placeholder="ex: jean@valjean.fr">
               <div class="error-zone">
-                <p class="contact-erreur">Erreur</p>
+
               </div>
             </div>
             <div class="contact-input">
               <label for="contact-message">votre message:</label>
               <textarea id="contact-message" class="message-area" name="message"></textarea>
               <div class="error-zone">
-                <p class="contact-erreur">Erreur</p>
+
               </div>
             </div>
             <div class="contact-input">
@@ -168,9 +175,7 @@ $competene_color = 'royalblue';
               </div>
             </div>
             <div class="contact-input">
-              <div class="error-zone">
-                <p>success</p>
-              </div>
+              <div id="final-response" class="error-zone"></div>
             </div>
           </form>
         </div>
@@ -180,5 +185,7 @@ $competene_color = 'royalblue';
     <script type="text/javascript" src="js/script-effect.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/burger.js"></script>
+    <script type="text/javascript" src="js/mail.js"></script>
+    <script type="text/javascript" src="js/loader.js"></script>
   </body>
 </html>

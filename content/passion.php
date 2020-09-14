@@ -1,6 +1,6 @@
 <!-- Intro Passion -->
 <div class="intro-passion">
-    <h1 class="name-title spec-size">Musique & Festival</h1>
+    <h1 class="name-title size-title-passion">Musique & Festival</h1>
     <p>Outre ma passion pour le <span class="span-text">code</span>, <br>j'entretiens deux autres passion qui sont intimement lié entre elles, la musique <span class="span-text">électronique</span> et les <span class="span-text">festivals</span>.</p>
 </div>
 <!-- Block Passion -->
@@ -9,7 +9,7 @@
   <div id="passion-music" class="passion-music">
     <div class="block-passion-music">
       <div class="title-passion-block">
-        <h2 class="txt-c title-sc-music name-title spec-size">Passion Musique</h2>
+        <h2 class="txt-c title-sc-music name-title size-title-passion">Passion Musique</h2>
       </div>
       <div id="block-music-zone" class="block-music-zone">
         <div id="arrow-left-music" class="arrow-left-music">
@@ -30,7 +30,7 @@
   <div class="passion-festival">
     <div class="block-passion-festival">
       <div class="title-passion-block">
-        <h2 class="txt-c title-sc-music name-title spec-size">Passion Festival</h2>
+        <h2 class="txt-c title-sc-music name-title size-title-passion">Passion Festival</h2>
       </div>
       <div class="block-zone-festival">
         <div id="arrow-left-festival" class="arrow-left-music">
